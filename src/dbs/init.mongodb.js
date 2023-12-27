@@ -2,7 +2,7 @@
 
 const mongoose = require("mongoose");
 // console.log(require('../configs/config.mongdb'))
-const {db: {host, name, port}} = require('../configs/config.mongdb')
+const {db: {host, name, port}} = require('../configs/config.mongdb.js')
 
 const connectString = `mongodb://${host}:${port}/${name}`;
 // const connectString = `mongodb://localhost:27017/shopDEV`;
